@@ -3,9 +3,22 @@
 
 var letters = ["a", "n", "c", "e", "z", "f"];
 var letters2 = ["w", "b", "v", "g", "l", "o"];
-var sortedLetters; // ONLY EDIT THIS LINE
+
+var sortedLetters = letters.sort() + " " + letters2.sort(function (a, b) { // ONLY EDIT THIS LINE
+  
+  if (a > b){
+    return 1;
+  }
+  if (a < b){
+    return -1;
+  }
+  if (a === b){
+    return 0;
+    }
+});
 
 console.log(sortedLetters);
+
 
 /* 
   EXPECTED RESULT
