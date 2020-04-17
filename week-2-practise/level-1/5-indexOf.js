@@ -3,9 +3,10 @@
 
 var itemToFind = 7;
 var arr = [3, 5, 61, 7, 123];
-var index; // ONLY EDIT THIS LINE
+var index = arr.indexOf(7, 3); // ONLY EDIT THIS LINE
 
 console.log(index);
+
 
 /* 
   EXPECTED RESULT
