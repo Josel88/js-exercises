@@ -4,7 +4,16 @@
 
 var nums = [10, 1, 5, 29, 100];
 var nums2 = [11, 6, 3, 29, 12];
-var sortedNums; // complete this statement
+var sortedNums = nums.sort(function (a, b) {
+  
+  if (a > b){
+    return 1;
+  }
+  if (a < b){
+    return -1;
+  }
+  return sortedNums.concat(nums).concat(nums2);
+});
 
 console.log(sortedNums);
 

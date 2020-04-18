@@ -10,8 +10,8 @@ function tidyUpString(str) {
     .replace("/", "");
 }
 
-function captialise(str) {
-  // complete this function
+mentors.map(function(name){
+  return name.trim().toLowerCase();
 }
 
 var mentors = ["/Daniel ", "irina ", " Gordon", "ashleigh "];
