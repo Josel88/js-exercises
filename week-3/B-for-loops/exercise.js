@@ -12,6 +12,13 @@ function isEven(number) {
   return number % 2 === 0;
 }
 
+for(let contador = 5; contador < 20; contador += 1){
+  if (isEven(contador)){
+  console.log("The exponential of " + contador + " is " + exponential(contador));
+}
+}
+
+
 /* EXPECTED OUTPUT */
 // The exponential of 6 is 36
 // The exponential of 8 is 64
